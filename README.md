@@ -1,3 +1,8 @@
+Free Code Camp(FCC) Front End Libraries Certification
+Front End Libraries Projects: 
+Project 1 - Build a random quote machine
+see https://www.freecodecamp.org/learn to find out more about this free certification.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
