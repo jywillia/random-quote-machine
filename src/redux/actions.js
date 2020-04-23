@@ -1,21 +1,12 @@
-import { GET_NEW_QUOTE, POST_NEW_QUOTE, TWEET_QUOTE } from './actionTypes';
+// import action type constants
+import { GET_NEW_QUOTE, TWEET_QUOTE } from './actionTypes';
 
+// get new quote action creator
 export const getNewQuote = () => ({
     type: GET_NEW_QUOTE
 })
 
-export const postNewQuote = content => ({
-    type: POST_NEW_QUOTE,
-    payload: {
-        text: content.text,
-        author: content.author
-    }
-})
-
-export const tweetQuote = content => ({
-    type: TWEET_QUOTE,
-    payload: {
-        text: content.text,
-        author: content.author
-    }
+// tweet current quote action creator
+export const tweetQuote = () => ({
+    type: TWEET_QUOTE    
 })
